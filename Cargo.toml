@@ -1,0 +1,12 @@
+[package]
+name = "stream-openai"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+async-openai = "0.5.0"
+futures = "0.3.25"
+tokio = { version = "1.23.0", features = ["full"] }
