@@ -5,7 +5,7 @@ use std::io::stdin;
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
-    let api_key = "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";
+    let api_key = "INSERT OPENAI TOKEN";
 
     let client = Client::new().with_api_key(api_key);
 
